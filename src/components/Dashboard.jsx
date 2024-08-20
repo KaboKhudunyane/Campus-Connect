@@ -18,6 +18,12 @@ const Dashboard = () => {
                     <div className="service" onClick={() => navigate('/RoomAdministration')}>
                         ROOMS
                     </div>
+                    <div className="service" onClick={() => navigate('/Business')}>
+                        BUSINESS
+                    </div>
+                    <div className="service" onClick={() => navigate('/Property')}>
+                        PROPERTY
+                    </div>
 
                 </div>
             </div>
